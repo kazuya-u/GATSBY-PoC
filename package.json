@@ -2,8 +2,8 @@
   "name": "app",
   "version": "1.0.0",
   "private": true,
-  "description": "sandbox",
-  "author": "kazuya-umeki",
+  "description": "app",
+  "author": "Kazuya Umeki",
   "keywords": [
     "gatsby"
   ],
@@ -17,16 +17,16 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^2.1.4",
-    "gatsby": "^5.13.2",
+    "gatsby": "^5.13.3",
     "gatsby-plugin-styled-components": "^6.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
-    "@types/node": "^20.11.5",
-    "@types/react": "^18.2.48",
-    "@types/react-dom": "^18.2.18",
+    "@types/node": "^20.11.19",
+    "@types/react-dom": "^18.2.19",
+    "@types/react": "^18.2.55",
     "typescript": "^5.3.3"
   }
 }
