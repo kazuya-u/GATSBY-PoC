@@ -20,6 +20,7 @@ const config: GatsbyConfig = {
       }
     },
     "gatsby-plugin-styled-components",
+    "gatsby-plugin-mdx",
   ]
 };
 
