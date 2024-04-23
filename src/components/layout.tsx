@@ -8,6 +8,7 @@ import {
   navLinkText,
   siteTitle
 } from './layout.module.css'
+import ThemeToggle from './themeToggl'
 
 type props = {
   pageTitle: string,
@@ -46,6 +47,7 @@ const Layout = ({ pageTitle, children }: props) => {
           </li>
         </ul>
       </nav>
+      <ThemeToggle />
       <main>
         <h1 className={heading}>{pageTitle}</h1>
         {children}
